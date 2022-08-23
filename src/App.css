@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+
+.d-flex
+{
+  position: absolute;
+  right: -20px;
+  width: 500px;
+  height: 40px;
+  top:30px;
+}
+.dropdown-person
+{
+  position:absolute;
+  right:-2000px;
+  width:50px;
+  top:0px;
+
+
+}
+.card-group
+{
+  display:flex;
+  justify-content: center;
+
+  align-items: center;
+  
+}
+.card-variants
+{
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height:200px;
+  border: 1px red black;
+
+  padding: 5px; /* this */
+  
+
+}
+.card-link
+{
+  color:white;
+}
+
+.card-style
+{
+  position:absolute;
+  right:-1000px;
+  align-items: right;
+  justify-content: right;
+  flex-direction: row-reverse;
+  margin:20px;
+}
+
+
+.area-chart
+{
+  margin-top:15px;
+  box-sizing:10px;
+  padding:10px;
+  padding-bottom:20px;
+  max-width:fit-content;
+ row-gap: 5px;
+  top:1px;
+  align-items: top;
+  display: block;
+  overflow: hidden;
+
+  position:relative;
+  padding:5px;
+  justify-content: space-around;
+
+
+    
+}
+
